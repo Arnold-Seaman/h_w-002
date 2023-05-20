@@ -5,7 +5,6 @@
 }
 
 body {
-    /* user-select: none; */
     background-color:lightslategray;
 }
 
@@ -14,7 +13,6 @@ div {
 }
 
 a {
-    /* text-decoration: none; */
     padding: 20px;
 
 }
@@ -38,8 +36,12 @@ p {
     border-radius: 10px;
 }
 
+.lastA {
+    display: block;
+    text-align: left;
+}
+
 ul {
-    /* list-style: none; */
     text-align: center;
     margin: 20px;
 }
@@ -54,8 +56,9 @@ li {
     height: 300px;
 }
 
-.block_logos {
-    height: 200px;
+.block_logos img {
+    max-width: 200px;
+    width: 100%;
 }
 
 iframe {
